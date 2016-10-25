@@ -1,0 +1,45 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+
+}
+
+#search-bar {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	background-color: white;
+}
+
+#image-filter {
+	width: 460px;
+	height: 25px;
+	border: 1px solid #999;
+	border-radius: 3px;
+}
+input {
+	font-size: 16pt;
+}
+
+.main {
+	padding-top: 95px;
+}
+
+#imageGallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 980px;
+	margin: 0 auto;
+
+}
+
+#imageGallery img {
+	padding-bottom: 60px;
+}
+
+
